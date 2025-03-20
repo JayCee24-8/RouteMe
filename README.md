@@ -31,12 +31,12 @@ git clone https://github.com/your-username/RouteMe.git
 cd RouteMe
 ```
 
-###2️⃣  **Install dependencies**
+### 2️⃣  **Install dependencies**
 ```bash
 npm install
 ```
 
-###3️⃣  **Start the development server**
+### 3️⃣  **Start the development server**
 ```bash
 npm run dev
 ```
