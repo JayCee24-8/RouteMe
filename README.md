@@ -1,12 +1,42 @@
-# React + Vite
+# 🚌 RouteMe - Public Transport Routes in Managua
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚍 **RouteMe** is a web application that helps users find public transportation routes in **Managua, Nicaragua**. By entering a destination, users can see **which bus routes pass through the nearest bus stop** and access detailed route information from **OpenStreetMap (Overpass API)**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ **Features**
+✅ Search for public transport routes by destination  
+✅ Retrieve **real-time bus route data** using **Overpass API**  
+✅ Display **bus stops and routes** on an interactive **OpenStreetMap**  
+✅ Use **Zustand** for state management  
+✅ Implement **React Hook Form** for controlled input validation  
+✅ Mobile-friendly and responsive design  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 **Tech Stack**
+- **Frontend:** React, Vite, Tailwind CSS  
+- **State Management:** Zustand  
+- **API Integration:** Overpass API (OpenStreetMap)  
+- **Map Display:** OpenStreetMap  
+
+---
+
+## 📦 **Installation**
+Follow these steps to run the project locally:
+
+### 1️⃣ **Clone the repository**
+```bash
+git clone https://github.com/your-username/RouteMe.git
+cd RouteMe
+```
+
+###2️⃣  **Install dependencies**
+```bash
+npm install
+```
+
+###3️⃣  **Start the development server**
+```bash
+npm run dev
+```
